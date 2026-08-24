@@ -8,8 +8,8 @@
 # `auto_updates true` tells Homebrew that the app updates itself via Sparkle, so
 # `brew upgrade` won't fight the in-app updater.
 cask "vnidrop" do
-  version "0.3.0"
-  sha256 "e9b216a3daa5896128ecdf8b341674d16e462e1839c43d2d9be3529253ad6582"
+  version "0.3.1"
+  sha256 "8ee70d1fe33a0192cbdace975b3e4e58992618bc058feff8821ba49938f643a7"
 
   url "https://github.com/sudosylabs/vnidrop/releases/download/v#{version}/VniDrop-#{version}.dmg",
       verified: "github.com/sudosylabs/vnidrop/"
